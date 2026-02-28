@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['SUV', 'bicycle', 'car', 'human', 'motorcycle']
+
+roboflow:
+  workspace: yoga-asanas
+  project: traffic-vehicle-and-pedestrian-d
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yoga-asanas/traffic-vehicle-and-pedestrian-d/dataset/1
